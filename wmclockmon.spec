@@ -1,11 +1,12 @@
 Summary:	Nice dockapp to monitor hour, date and alarms
 Summary(pl):	Przyjemny aplet monitoruj±cy godziny, datê i alarmy
 Name:		wmclockmon
-Version:	0.5.0
+Version:	0.5.2
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:        http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
+# Source0-md5:	41e88b9b856ca883e64f0e16b1802026
 Source1:        %{name}.desktop
 URL:		http://tnemeth.free.fr/projets/dockapps.html
 BuildRequires:	XFree86-devel
