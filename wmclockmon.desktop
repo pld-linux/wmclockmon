@@ -6,3 +6,6 @@ Comment[pl]=Zegar
 Exec=wmclockmon
 Terminal=false
 Type=Application
+Cagegories=X-Docklet;
+NotShowIn=GNOME;KDE;
+# vi: encoding=utf-8
