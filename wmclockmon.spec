@@ -1,5 +1,5 @@
 Summary:	Nice dockapp to monitor hour, date and alarms
-Summary(pl):	Przyjemny aplet monitouj±cy godziny, datê i alarmy
+Summary(pl):	Przyjemny aplet monitoruj±cy godziny, datê i alarmy
 Name:		wmclockmon
 Version:	0.5.0
 Release:	1
@@ -14,12 +14,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Nice digital clock with 7 different styles either in LCD style and LED
 style, and that uses locales to display week-day and month names. It
-also features the internet time.
+also features the Internet time.
 
 %description -l pl
-Przyjemny zegar cyfrowy z 7 ró¿nymi stylami, zarówno LCD jak i LED i
-u¿ywajacy locale do wy¶wietlania dni tygodnia i nazw miesiêcy.
-Posiada tak¿e opcjê wy¶wietlania czasu internetowego.
+Przyjemny zegar cyfrowy z 7 ró¿nymi stylami, zarówno LCD jak i LED,
+u¿ywajacy locale do wy¶wietlania nazw dni tygodnia i miesiêcy. Posiada
+tak¿e opcjê wy¶wietlania czasu internetowego.
 
 %prep
 %setup -q 
@@ -32,7 +32,7 @@ Posiada tak¿e opcjê wy¶wietlania czasu internetowego.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
 
-%{__make} install-strip \
+%{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
