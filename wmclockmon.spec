@@ -1,15 +1,16 @@
 Summary:	Nice dockapp to monitor hour, date and alarms
 Summary(pl):	Przyjemny aplet monitoruj±cy godziny, datê i alarmy
 Name:		wmclockmon
-Version:	0.5.2
+Version:	0.7.2
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:        http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
-# Source0-md5:	41e88b9b856ca883e64f0e16b1802026
+# Source0-md5:	6478724a3543390e6f593d2bdd3db42c
 Source1:        %{name}.desktop
 URL:		http://tnemeth.free.fr/projets/dockapps.html
 BuildRequires:	XFree86-devel
+BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -31,12 +32,12 @@ tak¿e opcjê wy¶wietlania czasu internetowego.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install -d $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog 
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-%{_applnkdir}/DockApplets/*
 %{_datadir}/%{name}
+%{_desktopdir}/docklets/*
