@@ -1,5 +1,5 @@
-Summary:	Nice dockapp to monitor hour, date and alarms.
-Summary(pl):	Przyjemny aplet monitouj±cy godziny, date i alarmy.
+Summary:	Nice dockapp to monitor hour, date and alarms
+Summary(pl):	Przyjemny aplet monitouj±cy godziny, datê i alarmy
 Name:		wmclockmon
 Version:	0.5.0
 Release:	1
@@ -12,14 +12,14 @@ BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Nice digital clock with 7 different styles either in LCD style and LED style, and
-that uses locales to display week-day and month names. It also features the
-internet time.
+Nice digital clock with 7 different styles either in LCD style and LED
+style, and that uses locales to display week-day and month names. It
+also features the internet time.
 
 %description -l pl
-Przyjemny zegar cyfrowy z 7 ró¿nymi stylami, zarówno LCD jak i LED i u¿ywajacy
-locale do wy¶wietlania dnia tygodnia i nazw miesiêcy. Posiada tak¿e opcjê
-wy¶wietlania czasu internetowego.
+Przyjemny zegar cyfrowy z 7 ró¿nymi stylami, zarówno LCD jak i LED i
+u¿ywajacy locale do wy¶wietlania dni tygodnia i nazw miesiêcy.
+Posiada tak¿e opcjê wy¶wietlania czasu internetowego.
 
 %prep
 %setup -q 
