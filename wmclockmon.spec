@@ -1,5 +1,5 @@
 Summary:	Nice dockapp to monitor hour, date and alarms
-Summary(pl.UTF-8):   Przyjemny aplet monitorujący godziny, datę i alarmy
+Summary(pl.UTF-8):	Przyjemny aplet monitorujący godziny, datę i alarmy
 Name:		wmclockmon
 Version:	0.8.1
 Release:	1
