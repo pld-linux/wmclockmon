@@ -1,5 +1,5 @@
 Summary:	Nice dockapp to monitor hour, date and alarms
-Summary(pl):	Przyjemny aplet monitoruj±cy godziny, datê i alarmy
+Summary(pl.UTF-8):   Przyjemny aplet monitorujÄ…cy godziny, datÄ™ i alarmy
 Name:		wmclockmon
 Version:	0.8.1
 Release:	1
@@ -19,10 +19,10 @@ Nice digital clock with 7 different styles either in LCD style and LED
 style, and that uses locales to display week-day and month names. It
 also features the Internet time.
 
-%description -l pl
-Przyjemny zegar cyfrowy z 7 ró¿nymi stylami, zarówno LCD jak i LED,
-u¿ywajacy locale do wy¶wietlania nazw dni tygodnia i miesiêcy. Posiada
-tak¿e opcjê wy¶wietlania czasu internetowego.
+%description -l pl.UTF-8
+Przyjemny zegar cyfrowy z 7 rÃ³Å¼nymi stylami, zarÃ³wno LCD jak i LED,
+uÅ¼ywajacy locale do wyÅ›wietlania nazw dni tygodnia i miesiÄ™cy. Posiada
+takÅ¼e opcjÄ™ wyÅ›wietlania czasu internetowego.
 
 %prep
 %setup -q 
